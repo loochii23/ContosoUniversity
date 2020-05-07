@@ -14,5 +14,12 @@ namespace ContosoUniversity.Models
 
 
         public ICollection<Enrollment> Enrollment { get; set; }
+
+
+        public string FullName {
+            get {
+                return string.Format("{0} {1}", LastName, FirstMidName);
+            }
+        }
     }
 }
