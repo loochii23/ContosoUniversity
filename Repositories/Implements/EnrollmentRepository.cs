@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using ContosoUniversity.Models;
 using ContosoUniversity.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace ContosoUniversity.Repositories.Implements
 {
